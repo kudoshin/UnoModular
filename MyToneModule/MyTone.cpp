@@ -139,9 +139,7 @@ disable_timer(uint8_t timer)
 			return;
 	}
 }
-
-void
-my_tone(uint8_t pin, uint8_t timer, uint16_t frequency, double pwm)
+void my_tone(uint8_t pin, uint8_t timer, uint16_t frequency, double pwm)
 {
 
 	if (timer < NUM_TIMERS) {
