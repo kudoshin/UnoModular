@@ -1,3 +1,5 @@
+#include <Time.h>
+
 #define LEN 16
 #define N 7
 
@@ -50,7 +52,7 @@ void setup()
   //other setup
   Serial.begin(9600);
   attachInterrupt(interrupt, clockPulse, RISING);
-  randomSeed(millis());
+  randomSeed(now());
 
   restGen(notes);
   melodyGen(melody);
