@@ -5,7 +5,7 @@ int pLogicB = 7;
 int pIntClockOut = 10;
 int pExtClockIn = 11;
 int pDivClockOut = 4;
-int pDivider;
+int pDivider = 5;
 
 //variables
 int interrupt = 1; //digital pin 3
